@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="668px" height="371px" viewBox="0 0 668 371" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>scan扫描</title>
+    <defs>
+        <linearGradient x1="91.353778%" y1="33.4126112%" x2="10.9083489%" y2="65.9128534%" id="linearGradient-1">
+            <stop stop-color="#FB299B" offset="0%"></stop>
+            <stop stop-color="#9D40FE" offset="100%"></stop>
+        </linearGradient>
+        <rect id="path-2" x="0" y="0" width="632" height="333" rx="40"></rect>
+        <filter x="-4.3%" y="-5.7%" width="111.7%" height="122.8%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="10" dy="20" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="9" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.384313725   0 0 0 0 0.211764706   0 0 0 0 1  0 0 0 0.0819766171 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="019-Asset-page(P2)" transform="translate(-32.000000, -229.000000)">
+            <g id="scan扫描" transform="translate(40.000000, 229.000000)">
+                <mask id="mask-3" fill="white">
+                    <use xlink:href="#path-2"></use>
+                </mask>
+                <g id="Mask">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+                <path d="M601,19 C521.761905,19 457,84.5974601 457,165.720946 C457,182.023274 459.666667,197.93745 464.619048,213.463476 C468.047619,223.943544 479.47619,229.765804 490.142857,226.272448 C500.428571,222.779092 506.142857,211.134572 502.714286,200.266354 C498.52381,188.233684 496.619048,175.424713 497,162.615741 C498.52381,107.886499 541.952381,62.8610236 595.666667,60.143969 C655.47619,57.0387638 705,105.557595 705,165.720946 C705,222.002791 661.571429,268.192718 607.095238,271.297923 C607.095238,271.297923 586.904762,272.462375 577,274.014978 C572.047619,274.791279 568.238095,275.567581 565.571429,275.955731 C564.428571,276.343882 563.285714,275.17943 563.666667,274.014978 L567.095238,256.936349 L585.761905,169.214302 C588.047619,158.346084 581.190476,147.477866 570.52381,145.148962 C559.857143,142.820058 549.190476,149.80677 546.904762,160.674988 C546.904762,160.674988 501.952381,374.157846 501.571429,376.48675 C499.285714,387.354968 506.142857,398.223186 516.809524,400.55209 C527.47619,402.880994 538.142857,395.894282 540.428571,385.026064 C540.809524,382.69716 546.904762,354.362163 546.904762,354.362163 C551.47619,332.625726 569,316.71155 589.571429,313.994495 C594.142857,313.218194 612.047619,312.053742 612.047619,312.053742 C686.333333,306.231482 745,242.962926 745,165.720946 C745,84.5974601 680.238095,19 601,19 Z" id="Path" fill-opacity="0.5" fill="#E6007A" mask="url(#mask-3)"></path>
+            </g>
+        </g>
+    </g>
+</svg>

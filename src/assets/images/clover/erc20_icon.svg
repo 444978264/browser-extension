@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <circle id="path-1" cx="38" cy="38" r="38"></circle>
+        <polygon id="path-3" points="0 0.114020267 33.2194253 0.114020267 33.2194253 27.4068869 0 27.4068869"></polygon>
+        <polygon id="path-5" points="0 41.8 33.25 41.8 33.25 0 0 0"></polygon>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="017-Asset-page" transform="translate(-42.000000, -1203.000000)">
+            <g id="Stacked-Group" transform="translate(40.000000, 678.000000)">
+                <g id="list/home" transform="translate(2.000000, 525.000000)">
+                    <g id="首页列表">
+                        <g id="icon/circle/cor/2">
+                            <g>
+                                <g id="Group">
+                                    <g id="位图">
+                                        <mask id="mask-2" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <use id="蒙版" fill="#666666" xlink:href="#path-1"></use>
+                                    </g>
+                                    <g id="Group-6" transform="translate(21.850000, 18.050000)">
+                                        <g id="Group-3">
+                                            <mask id="mask-4" fill="white">
+                                                <use xlink:href="#path-3"></use>
+                                            </mask>
+                                            <g id="Clip-2"></g>
+                                            <path d="M33.2196164,4.52202027 L33.2196164,17.5876996 L24.0472026,23.7629403 L18.7042716,27.3591336 L18.6312744,27.4068869 L9.53185776,27.4068869 L9.53185776,22.7711403 L18.7042716,16.5958996 L24.0472026,12.9997063 L24.0472026,8.93002027 L-0.000191091954,8.93002027 L-0.000191091954,0.114020267 L28.6334095,0.114020267 C31.1661422,0.114020267 33.2196164,2.08733493 33.2196164,4.52202027" id="Fill-1" fill="#FFFFFF" mask="url(#mask-4)"></path>
+                                        </g>
+                                        <mask id="mask-6" fill="white">
+                                            <use xlink:href="#path-5"></use>
+                                        </mask>
+                                        <g id="Clip-5"></g>
+                                        <polygon id="Fill-4" fill="#FFFFFF" mask="url(#mask-6)" points="8.55 41.8 18.05 41.8 18.05 32.3 8.55 32.3"></polygon>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

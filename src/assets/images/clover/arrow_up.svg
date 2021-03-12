@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="14px" viewBox="0 0 24 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>路径 2</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="014-Input-seed-phrase" transform="translate(-648.000000, -686.000000)" stroke="#333333" stroke-width="4">
+            <g id="input/select(no-text)" transform="translate(40.000000, 675.000000)">
+                <path d="M610,13 C616.637884,19.6378838 619.956826,22.9568257 619.956826,22.9568257 L629.796669,13.1169819" id="路径-2" transform="translate(619.898335, 17.978413) scale(1, -1) translate(-619.898335, -17.978413) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

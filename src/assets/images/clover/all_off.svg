@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="60px" height="60px" viewBox="0 0 60 60" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group 2</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="021-Change-account" transform="translate(-47.000000, -319.000000)" stroke="#C4C4C4">
+            <g id="Stacked-Group" transform="translate(47.000000, 319.000000)">
+                <g id="icon/circle/3">
+                    <g id="Group-2">
+                        <g id="Group" fill="#FFFFFF" stroke-width="6">
+                            <circle id="椭圆形" cx="30" cy="30" r="27"></circle>
+                        </g>
+                        <path d="M14.965616,36.8571429 L15.9050348,34.0379919 L20.9060581,34.0379919 L21.781007,36.8571429 L24.8571429,36.8571429 L20.0495293,23.1428571 L16.8444535,23.1428571 L12,36.8571429 L14.965616,36.8571429 Z M20.5714286,30.8571429 L17.1428571,30.8571429 L18.8846448,25.7142857 L20.5714286,30.8571429 Z M36.8571429,36.8571429 L36.8571429,34.3915487 L30.2262593,34.3915487 L30.2262593,23.1428571 L27.4285714,23.1428571 L27.4285714,36.8571429 L36.8571429,36.8571429 Z M48,36.8571429 L48,34.3915487 L41.971924,34.3915487 L41.971924,23.1428571 L39.4285714,23.1428571 L39.4285714,36.8571429 L48,36.8571429 Z" id="ALL" fill="#C4C4C4" fill-rule="nonzero"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="36px" height="36px" viewBox="0 0 36 36" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>编组 3</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="026Send" transform="translate(-114.000000, -1014.000000)">
+            <g id="Stacked-Group" transform="translate(0.000000, 187.000000)">
+                <g id="Group" transform="translate(40.000000, 827.000000)">
+                    <g id="icon/mini/question" transform="translate(74.000000, 0.000000)">
+                        <g id="编组-3">
+                            <circle id="椭圆形" fill="#FFAC3D" cx="18" cy="18" r="18"></circle>
+                            <text id="?" font-family="Helvetica" font-size="26" font-weight="normal" fill="#FFFFFF">
+                                <tspan x="11" y="29">?</tspan>
+                            </text>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

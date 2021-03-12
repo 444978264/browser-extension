@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="76px" height="76px" viewBox="0 0 76 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Group</title>
+    <defs>
+        <circle id="path-1" cx="38" cy="38" r="38"></circle>
+        <path d="M54.15,40.85 L37.9956269,63.65 L21.85,40.85 L37.9956269,50.4047866 L54.15,40.85 Z M38,12.35 L54.15,38.2682595 L38,47.5 L21.85,38.2682595 L38,12.35 Z" id="path-3"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="016-Asset-page" transform="translate(-42.000000, -924.000000)">
+            <g id="Stacked-Group" transform="translate(40.000000, 667.000000)">
+                <g id="list/home" transform="translate(2.000000, 257.000000)">
+                    <g id="首页列表">
+                        <g id="icon/circle/cor/2">
+                            <g>
+                                <g id="Group">
+                                    <g id="位图">
+                                        <mask id="mask-2" fill="white">
+                                            <use xlink:href="#path-1"></use>
+                                        </mask>
+                                        <use id="蒙版" fill="#4E8EE9" xlink:href="#path-1"></use>
+                                    </g>
+                                    <mask id="mask-4" fill="white">
+                                        <use xlink:href="#path-3"></use>
+                                    </mask>
+                                    <use id="Mask" fill="#FFFFFF" fill-rule="nonzero" xlink:href="#path-3"></use>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

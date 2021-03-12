@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="14px" height="24px" viewBox="0 0 14 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>icon/mini/3</title>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="016-Asset-page" transform="translate(-657.000000, -713.000000)" stroke="#333333" stroke-width="4">
+            <g id="Stacked-Group" transform="translate(40.000000, 667.000000)">
+                <g id="list/home" transform="translate(0.000000, 19.000000)">
+                    <g id="首页列表">
+                        <g id="icon/mini/3">
+                            <g transform="translate(624.000000, 39.000000) rotate(90.000000) translate(-624.000000, -39.000000) translate(614.000000, 34.000000)">
+                                <path d="M1.77635684e-15,-9.09494702e-13 C6.63788377,6.63788377 9.95682566,9.95682566 9.95682566,9.95682566 L19.7966694,0.116981908" id="路径-2" transform="translate(9.898335, 4.978413) scale(1, -1) translate(-9.898335, -4.978413) "></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

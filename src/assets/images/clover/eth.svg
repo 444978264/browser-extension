@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="48px" height="75px" viewBox="0 0 48 75" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Rectangle + Rectangle Mask</title>
+    <defs>
+        <path d="M47.5,42 L23.9936366,75 L0.5,42 L23.9936366,55.8292964 L47.5,42 Z M24,0 L47.5,38.3428021 L24,52 L0.5,38.3428021 L24,0 Z" id="path-1"></path>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="050-UI-guideline" transform="translate(-637.000000, -2654.000000)">
+            <g id="logo/switch/ethcolor" transform="translate(637.000000, 2654.000000)">
+                <g id="Rectangle-+-Rectangle-Mask">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#4E8EE9" fill-rule="nonzero" xlink:href="#path-1"></use>
+                    <rect id="Rectangle" fill-opacity="0.2" fill="#FFFFFF" style="mix-blend-mode: normal;" mask="url(#mask-2)" x="-5" y="-8" width="29" height="92"></rect>
+                    <polygon id="Rectangle" fill="#3C6DB3" opacity="0.310012091" mask="url(#mask-2)" points="24.5 28 47.5 38 24.0106383 52 0.5 38"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
