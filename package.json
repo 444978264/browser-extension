@@ -6,9 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "cross-env NODE_ENV=development platform=chrome node ./build/build.js",
-    "build": "cross-env NODE_ENV=production platform=chrome npx webpack",
-    "build:chrome": "cross-env NODE_ENV=production platform=chrome npx webpack",
-    "build:a": "cross-env NODE_ENV=production platform=chrome npx webpack --env analyzer=true"
+    "build": "cross-env NODE_ENV=production platform=chrome node ./build/build.js",
+    "build:chrome": "cross-env NODE_ENV=production platform=chrome node ./build/build.js"
   },
   "keywords": [],
   "author": "",
