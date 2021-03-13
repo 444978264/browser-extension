@@ -24,7 +24,6 @@ module.exports = (config) => {
       })
     )
   }
-
   return {
     mode: process.env.NODE_ENV,
     watch: isDev,
@@ -37,7 +36,7 @@ module.exports = (config) => {
       background: './src/background.js',
     },
     output: {
-      path: path.resolve(__dirname, 'dist'),
+      path: path.resolve(__dirname, 'dist', process.env.platform),
       filename: 'scripts/[name].bundle.js',
       assetModuleFilename: 'images/[hash][ext][query]',
     },
@@ -83,7 +82,9 @@ module.exports = (config) => {
     plugins: [
       ...Plugins,
       new CleanWebpackPlugin({
-        cleanOnceBeforeBuildPatterns: [path.resolve(__dirname, 'dist/**/*')],
+        cleanOnceBeforeBuildPatterns: [
+          path.resolve(__dirname, `dist/${process.env.platform}/**/*`),
+        ],
       }),
       new webpack.DefinePlugin({
         'process.env': JSON.stringify(process.env),
@@ -95,7 +96,7 @@ module.exports = (config) => {
         inject: true,
         chunks: ['popup'],
         filename: 'popup.html',
-        template: './src/popup.html',
+        template: './public/popup.html',
       }),
       new CopyWebpackPlugin({
         patterns: [{ from: './package.json' }],

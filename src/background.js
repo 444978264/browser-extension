@@ -1,1 +1,1 @@
-console.log('this is background.js')
+console.log(chrome, 'chrome')
