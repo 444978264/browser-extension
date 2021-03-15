@@ -1,3 +1,4 @@
+const path = require('path')
 const isDev = require('./vars')
 const webpack = require('webpack')
 const { merge } = require('webpack-merge')
@@ -22,6 +23,8 @@ function mergeConfig() {
   const configArgs = [common, analyzer]
   if (!isDev) {
     configArgs.push(require('./config.prod'))
+  } else {
+    common.entry.reload = path.resolve(__dirname, 'reload.js')
   }
   return merge.apply(null, configArgs)
 }
@@ -41,6 +44,13 @@ function taskCallback(err, stats) {
   const manifest = require('../public/manifest/base.json')
   const platform = require(`../public/manifest/${process.env.platform}.json`)
 
+  if (isDev) {
+    manifest.background.scripts = [
+      reWritePath('reload'),
+      reWritePath('background'),
+    ]
+  }
+
   const writerStream = fs.createWriteStream(
     `${webpackConfig.output.path}/manifest.json`
   )
@@ -54,5 +64,9 @@ function taskCallback(err, stats) {
   })
   writerStream.on('error', function (err) {
     console.log(err.stack)
-  })                                                                                                                                                                                                                                                                                                                                                                                                                                              
+  })
+}
+
+function reWritePath(fileName) {
+  return webpackConfig.output.filename.replace(/\[name\]/, fileName)
 }
