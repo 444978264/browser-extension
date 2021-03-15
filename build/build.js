@@ -3,8 +3,9 @@ const webpack = require('webpack')
 const { merge } = require('webpack-merge')
 const common = require('./config.base')
 const analyzer = require('./analyzer')
-
-const compile = webpack(mergeConfig())
+const fs = require('fs')
+const webpackConfig = mergeConfig()
+const compile = webpack(webpackConfig)
 
 if (isDev) {
   compile.watch(
@@ -13,9 +14,6 @@ if (isDev) {
     },
     taskCallback
   )
-  // .close(() => {
-  //   console.log('Watching Ended.')
-  // })
 } else {
   compile.run(taskCallback)
 }
@@ -39,4 +37,22 @@ function taskCallback(err, stats) {
       colors: true,
     })
   )
+
+  const manifest = require('../public/manifest/base.json')
+  const platform = require(`../public/manifest/${process.env.platform}.json`)
+
+  const writerStream = fs.createWriteStream(
+    `${webpackConfig.output.path}/manifest.json`
+  )
+  // 使用 utf8 编码写入数据
+  writerStream.write(JSON.stringify(Object.assign(manifest, platform)), 'UTF8')
+  // 标记文件末尾
+  writerStream.end()
+  // 处理流事件 --> finish、error
+  writerStream.on('finish', function () {
+    console.log('写入完成。')
+  })
+  writerStream.on('error', function (err) {
+    console.log(err.stack)
+  })                                                                                                                                                                                                                                                                                                                                                                                                                                              
 }
