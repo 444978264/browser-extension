@@ -46,6 +46,9 @@ module.exports = {
       {
         test: /\.(ico|eot|otf|webp|ttf|woff|woff2)(\?.*)?$/,
         type: 'asset/source',
+        generator: {
+          filename: 'fonts/[hash][ext][query]',
+        },
       },
       {
         test: /\.(jpe?g|png|gif|svg)$/i,
@@ -74,8 +77,8 @@ module.exports = {
       filename: 'popup.html',
       template: './public/popup.html',
     }),
-    new CopyWebpackPlugin({
-      patterns: [{ from: './package.json' }],
-    }),
+    // new CopyWebpackPlugin({
+    //   patterns: [{ from: './package.json' }],
+    // }),
   ],
 }
