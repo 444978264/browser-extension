@@ -6,7 +6,7 @@
   "author": "https://github.com/444978264",
   "background": {
     "scripts": ["background.bundle.js"],
-    "persistent": true
+    "persistent": false
   },
   "browser_action": {
     "default_title": "extension",
@@ -22,6 +22,13 @@
       }
     }
   },
+  "content_scripts": [
+    {
+      "matches": ["file://*/*", "http://*/*", "https://*/*"],
+      "all_frames": true,
+      "js": ["scripts/content.bundle.js"]
+    }
+  ],
   "permissions": [
     "storage",
     "unlimitedStorage",
@@ -29,7 +36,6 @@
     "http://localhost:8545/",
     "https://*.infura.io/",
     "activeTab",
-    "webRequest",
     "*://*.eth/",
     "notifications"
   ],
